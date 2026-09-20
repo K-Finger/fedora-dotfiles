@@ -1,0 +1,12 @@
+{
+  "logo": { "type": "small" },
+  "modules": [
+    { "type": "os", "format": "{name}" },
+    "host",
+    "kernel",
+    "uptime",
+    { "type": "cpu", "format": "{name}" },
+    { "type": "gpu", "format": "{vendor}" },
+    "memory"
+  ]
+}
