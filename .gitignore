@@ -1,20 +1,5 @@
-# Ignore everything in $HOME by default; allow only the files below.
-/*
-!/.gitignore
-!/README.md
-!/.config/
-!/Pictures/
-
-/.config/*
-!/.config/hypr/
-!/.config/waybar/
-!/.config/kitty/
-!/.config/fish/
-!/.config/fastfetch/
-!/.config/nvim/
-
-/Pictures/*
-!/Pictures/wallpaper2.jpg
+# Machine-specific / regenerated files
+fish/.config/fish/fish_variables
 
 # Backups and scratch files
 *.bak
