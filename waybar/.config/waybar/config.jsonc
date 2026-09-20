@@ -24,7 +24,7 @@
     //"wireplumber",
     "custom/volume",
     "backlight",
-    //"bluetooth",
+    "bluetooth",
     "network",
     "battery"
   ],
@@ -83,11 +83,13 @@
   },
 
   "bluetooth": {
-    "format": "{icon}",
-    "format-icons": ["", "󰤾", "󰥀", "󰥄", "󰥈"],
-    "format-connected-battery": "󰋋",
+    "format": "󰂯",
+    "format-off": "󰂲",
+    "format-disabled": "󰂲",
+    "format-connected": "󰂱",
+    "format-connected-battery": "󰂱",
     "tooltip": false,
-    "on-click": "blueman-manager"
+    "on-click": "~/.config/waybar/scripts/bluetooth-menu.sh"
   },
 
   "backlight": {
